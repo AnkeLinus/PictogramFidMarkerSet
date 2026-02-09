@@ -129,16 +129,12 @@ def main():
     #Testing
     model_weights = YOLO("PATH_TO_GIT/pictodataset/runs/detect/train3/weights/best.pt")
 
-    results = model_weights.val(data=data_path, imgsz=640)  
-    #results = model_weights.val(data=data_path, imgsz=1280)  
+    results = model_weights.val(data=data_path, imgsz=640, split = "test")  
+    #results = model_weights.val(data=data_path, imgsz=1280, split = "test")  
     print(f"Resuts: {results}")
 
     # Inference times
     measure_inference_time(model_weights, images_path=test_image_dir)
-
-    #mAP75 Score
-    mAP75 = results.box.map75
-    print(f"mAP75: {mAP75}")
     
     # Run predictions on master images and plot
     plot_true = False 
