@@ -34,14 +34,18 @@ This repository contains code from following authors and websites:
 ## License and Citation
 This git is free to use for everyone. Please, when used in academic context cite the following Paper:
 
-**Anonymized Authors. Robust and Scalable Task Selection for Humans and Robots with the Use of Pictograms as Fiducial Markers, in Added after Review (2025).**
+**A. Fischer-Janzen, T. M. Wendt and K. Van Laerhoven, "Robust and Scalable Task Selection for Humans and Robots With the Use of Pictograms as Fiducial Markers," in IEEE Access, vol. 14, pp. 42722-42733, 2026, doi: 10.1109/ACCESS.2026.3675026.**
 
 Bibtex:
 ```
-authors = 'Anonymized',
-title = 'Robust and Scalable Task Selection for Humans and Robots with the Use of Pictograms as Fiducial Markers',
-journal = '', 
-volume = '',
-issue = '',
-year = ''
+@ARTICLE{11435902,
+  author={Fischer-Janzen, Anke and Wendt, Thomas M. and Van Laerhoven, Kristof},
+  journal={IEEE Access}, 
+  title={Robust and Scalable Task Selection for Humans and Robots With the Use of Pictograms as Fiducial Markers}, 
+  year={2026},
+  volume={14},
+  number={},
+  pages={42722-42733},
+  keywords={Robots;Fiducial markers;Cameras;Robot vision systems;Object detection;Manipulators;Computational modeling;Training;Gaze tracking;Usability;Assistive robots;assistive technologies;gaze tracking;object detection;robust control;scalability},
+  doi={10.1109/ACCESS.2026.3675026}}
 ```
